@@ -1,4 +1,5 @@
-# Maintainer: SovietReimu1228 <reimussr at protonmail dot ch>
+# Maintainer: Edward Davis <idlyby@proton.me>
+# Contributor: SovietReimu1228 <reimussr at protonmail dot ch>
 
 pkgname=directx-headers-git
 pkgdesc="DirectX headers for using D3D12"
@@ -12,6 +13,7 @@ url="https://github.com/microsoft/DirectX-Headers"
 license=('MIT')
 source=('DirectX-Headers::git+https://github.com/microsoft/DirectX-Headers.git')
 sha256sums=('SKIP')
+options=('!lto')
 
 pkgver() {
     cd DirectX-Headers

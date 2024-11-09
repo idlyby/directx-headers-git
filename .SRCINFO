@@ -9,6 +9,7 @@ pkgbase = directx-headers-git
 	makedepends = git
 	provides = directx-headers
 	conflicts = directx-headers
+	options = !lto
 	source = DirectX-Headers::git+https://github.com/microsoft/DirectX-Headers.git
 	sha256sums = SKIP
 
